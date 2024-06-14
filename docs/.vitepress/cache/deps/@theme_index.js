@@ -7,7 +7,6 @@ import {
   shallowRef,
   watch
 } from "./chunk-RY5ODQAQ.js";
-import "./chunk-CSAU5B4Q.js";
 
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "D:/html/农业/qingyun/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";

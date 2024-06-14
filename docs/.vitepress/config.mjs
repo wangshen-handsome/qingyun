@@ -40,25 +40,16 @@ export default defineConfig({
         items: store,
       },
     ],
-    // {
-    //   "/cooperation": [
-    //     {
-    //       text: "合作社简介",
-    //       items: cooperation,
-    //     },
-    //   ],
-    //   "/store": [
-    //     {
-    //       text: "葡萄小故事",
-    //       items: store,
-    //     },
-    //   ],
-    // },
     footer: {
       message: '户县青云种养殖专业合作社',
       copyright: 'Copyright © 2023'
     },
     ignoreDeadLinks: true,
+    //添加搜索
+    search: {
+      provider: 'local'
+    }
   },
-  cleanUrls: true
+  cleanUrls: true,
+  //搜索
 })
