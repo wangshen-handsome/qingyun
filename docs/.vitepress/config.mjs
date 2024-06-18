@@ -4,6 +4,8 @@ import cooperation from './cooperation.js'
 
 import store from './store.js'
 
+import disease from './disease.js'
+
 const BASE_URL = "/qingyun/";
 
 const withBase = (path) =>
@@ -26,6 +28,7 @@ export default defineConfig({
     nav: [
       { text: '合作社简介', link: '/cooperation/cooperationAbout' },
       { text: '葡萄小故事', link: '/store/wangzhan' },
+      { text: '葡萄相关病症', link: '/disease/frequentGasBurning' },
     ],
     //侧边栏
     sidebar: [
@@ -38,6 +41,11 @@ export default defineConfig({
         text: '葡萄小故事',
         collapsed: true,
         items: store,
+      },
+      {
+        text: '葡萄相关病症',
+        collapsed: true,
+        items: disease,
       },
     ],
     footer: {
