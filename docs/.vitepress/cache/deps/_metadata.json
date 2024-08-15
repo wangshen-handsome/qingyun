@@ -1,58 +1,76 @@
 {
-  "hash": "3e9ea4d1",
+  "hash": "9607a0bd",
   "configHash": "a87871c2",
-  "lockfileHash": "65a13eab",
-  "browserHash": "695cd3ad",
+  "lockfileHash": "ba535724",
+  "browserHash": "846eb8ad",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "deb6b01a",
+      "fileHash": "b5d9c50d",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "2c726202",
+      "fileHash": "7cd3db71",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "72dae667",
+      "fileHash": "212c1fe0",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "9c3f113d",
+      "fileHash": "337dc7ff",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "5b040758",
+      "fileHash": "323d5696",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "20aa9110",
+      "fileHash": "949f0123",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "85ad6053",
+      "fileHash": "8016cfdb",
+      "needsInterop": false
+    },
+    "echarts": {
+      "src": "../../../../node_modules/echarts/index.js",
+      "file": "echarts.js",
+      "fileHash": "179b3827",
+      "needsInterop": false
+    },
+    "echarts-wordcloud": {
+      "src": "../../../../node_modules/echarts-wordcloud/index.js",
+      "file": "echarts-wordcloud.js",
+      "fileHash": "6f5772ed",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-I5M6LOQU": {
+      "file": "chunk-I5M6LOQU.js"
+    },
     "chunk-ZEI2HCB7": {
       "file": "chunk-ZEI2HCB7.js"
     },
     "chunk-RY5ODQAQ": {
       "file": "chunk-RY5ODQAQ.js"
+    },
+    "chunk-CSAU5B4Q": {
+      "file": "chunk-CSAU5B4Q.js"
     }
   }
 }
